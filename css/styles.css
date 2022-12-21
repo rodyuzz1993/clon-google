@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    margin: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+header{
+    display: flex;
+    height: 48px;
+    font-size: 13px;
+    justify-content: end;
+    padding: 6px;
+}
+header div{
+    width: 267px;
+    height: 48px;
+    display: flex;
+    align-items:center;
+    height: 48px;
+    font-size: 13px;
+    justify-content: end;
+}
+
+header div .letras{
+    justify-content:space-around;
+}
+header div .iconos{
+    justify-content:space-around;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items:center;
+}
+#fondoicono
+{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+header #imagenapps{
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+}
+
+header #imagencuenta{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+#fondoicono:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+}
+.imagen #logo{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.imagen #logo img{
+    height: 150px;
+    width: 375px;
+}
+.buscador{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.buscador .cajabuscador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:5px 8px 0px 14px;
+    width: 582px;
+    height: 39px;
+    border-style:solid;
+    border-radius: 30px;
+    border-color: rgb(221, 221, 221);
+    border-width: 1px;
+}
+.buscador .cajabuscador:hover {
+    -webkit-box-shadow: 1px 1px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.2);
+    border-color: white;
+}
+.buscador .lupa img{
+    height: 16px;
+    width: 16px;
+    opacity: 0.4;
+}
+
+.buscador .microfono img{
+    height: 20px;
+    width: 16px;
+    padding: 0px 8px;
+}
+.buscador .lens img{
+    height: 18px;
+    width: 30px;
+    padding: 0px 8px;
+}
+
+.buscador #input-search{
+    width: 500px;
+    height: 34px;
+    padding:6px 4px 10px 13px;
+    border-style: none;
+}
+.buscador #input-search:focus{
+    outline: none;
+}
+
+.buscador .botones {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    height: 70px;
+    width: 584px;
+    padding-top: 18px;
+}
+
+.buscador .botones a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #f8f9fa;
+    width: 123px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.buscador .botones a:hover{
+    border-color: #dfdfdfde;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-box-shadow: 0px 2px 24px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 24px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px -3px rgba(0,0,0,1);
+}
+.espaciovacio{
+    height: 178px;
+}
+footer{
+    background-color: #ececec;
+    color: #70757a;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    height: 93px;
+    justify-content: end;
+}
+footer a{
+    color: #70757a;
+    text-decoration: none;
+    font-size: 14px;
+    height: 16px;
+    padding: 15px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+.country{
+    height: 17px;
+    padding: 15px 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #ececec;
+    border-bottom: 1px solid #dadce0;
+}
+.country p{
+    font-size: 15px;
+}
+.dosfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    height: 46px;
+    padding: 0px 20px;
+}
+.footizq{
+    display: block;
+    padding: 15px;
+    justify-content: left;
+    align-items: center;
+}
+.footder{
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+select{
+    font-family: 'Roboto Slab', serif;
+    color: #70757a;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #ececec;
+    border: none;
+    appearance: none;
+    display: flex;
+}
+select:hover{
+    text-decoration: underline;
+}
+option{
+    background-color: white;
+    font-size: 15px;
+}
